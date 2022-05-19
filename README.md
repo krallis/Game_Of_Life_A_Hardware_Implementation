@@ -1,4 +1,4 @@
-# Game_Of_Life_A_Hardware_Implementation
+# Game Of Life: A Hardware Implementation
 This repo contains a System Verilog implementation of a Cellular Automata (CA) grid which runs under the rules of Conway's Game of Life (GoL). The size of the grid is modular and its initial dimensions are 20x20. The cells are connected in accordance with the Moore's neighborhood.
 Along with the CA cell, there is also an implementation of a vga port so that the whole design can be loaded on an FPGA and the evolution of the CA can be previewed on a vga supported monitor.
 The evolution of the CA and the VGA port are carefully synced, using the hsync signal of the VGA protocol.
